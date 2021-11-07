@@ -4,7 +4,3 @@
 // `nodeIntegration` is turned off. Use `preload.js` to
 // selectively enable features needed in the rendering
 // process.
-document.querySelector("#node-version").innerText = api.processVersions.node;
-document.querySelector("#chrome-version").innerText = api.processVersions.chrome;
-document.querySelector("#electron-version").innerText = api.processVersions.electron;
-
